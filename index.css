@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:visited, a {
     color: white;
     text-decoration: none;
 }
