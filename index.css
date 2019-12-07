@@ -12,9 +12,9 @@ ul li {
     font-size: 1.5em;
 }
 
-ul li:hover {
+/* ul li:hover {
     background-color: black;
-}
+} */
 
 ul {
     text-align: right;
@@ -24,7 +24,7 @@ ul {
 }
 
 header {
-    background-color:#333;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -96,7 +96,7 @@ img {
 }
 
 footer {
-    background-color:#333;
+    background-color: black;
     overflow: hidden;
     margin: 0;
     position: absolute;
@@ -112,9 +112,9 @@ footer a {
     font-size: 1.5em;
 }
 
-footer a:hover {
+/* footer a:hover {
     background-color: black;
-}
+} */
 
 .text {
     color: white;
