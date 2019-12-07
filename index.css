@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     position: relative;
     min-height: 100vh;
 }
@@ -9,11 +9,11 @@ ul li {
     display: inline-block;
     padding-right: 2em;
     color: white;
-    font-size: 18px;
+    font-size: 1.5em;
 }
 
 ul li:hover {
-    background-color: gray;
+    background-color: black;
 }
 
 ul {
@@ -82,8 +82,8 @@ img {
 }
 
 .box a {
-    color: gray;
-    font-family: 'Gelasio', serif;
+    color: black;
+    font-family: 'Alatsi', sans-serif;
 }
 
 .left {
@@ -108,6 +108,12 @@ footer a {
     padding-left: 1em;
     padding-right: 0.5em;
     color: white;
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+footer a:hover {
+    background-color: black;
 }
 
 .text {
@@ -136,8 +142,44 @@ footer a {
     flex-grow: 1;
 }
 
+
 @media only screen and (max-height: 900px) {
     footer {
         bottom: -20px;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .box{
+        margin: 25%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .container {
+        display: block;
+        margin-top: 0%:
+    }
+
+    footer {
+        bottom: -40px;
+    }
+}
+
+.icons {
+    width: 10%;
+    height: 5vh;
+    margin: 5%;
+}
+
+.email {
+    width: 5%;
+    height: 5vh;
+    margin: 5%;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
