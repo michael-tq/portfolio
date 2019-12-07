@@ -24,10 +24,6 @@ header {
     overflow: hidden;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:visited, a {
     color: white;
     text-decoration: none;
