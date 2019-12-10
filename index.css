@@ -67,12 +67,12 @@ img {
     margin: 0;
 }
 
-.box {
-    margin: 2%;
+div.box {
+    margin: 0;
     align-items: center;
-    width: 45%;
+    width: 100%;
+} 
 
-}
 
 .box a {
     color: black;
@@ -134,7 +134,7 @@ footer a {
 
 @media only screen and (max-height: 900px) {
     footer {
-        bottom: -20px;
+        bottom: -30px;
     }
 }
 
