@@ -5,26 +5,20 @@ body {
     min-height: 100vh;
 }
 
-.menu a {
+ul li {
     display: inline-block;
     padding-right: 2em;
     color: white;
     font-size: 1.5em;
 }
 
-.menu {
+ul {
     text-align: right;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
-label {
-    display: none;
-}
 
-#toggle {
-    display:none
-}
 header {
     background-color: black;
     overflow: hidden;
@@ -159,28 +153,6 @@ footer a {
     footer {
         bottom: -60px;
     }
-    
-    .menu a {
-        display: none;
-    }
-
-    label {
-        display: block;
-        color: white;
-        float: right;
-        padding: 1px;
-        cursor: pointer;
-    }
-
-    #toggle:checked + .menu a {
-        display: block;
-        padding-right: 0;
-    }
-
-    footer {
-        font-size: 14px;
-    }
-
 }
 
 .icons {
