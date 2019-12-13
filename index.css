@@ -35,17 +35,17 @@ header {
     overflow: hidden;
 }
 
-a:visited, a {
+a:visited, a, #name {
     color: white;
     text-decoration: none;
 }
 
-#name {
+/* #name {
     float: left;
     padding-left: 7px;
     color: white;
     text-decoration: none;
-}
+} */
 
 body {
     background-color: white;
