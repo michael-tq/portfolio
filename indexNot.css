@@ -32,6 +32,8 @@ a:visited, a {
 #name {
     float: left;
     padding-left: 7px;
+    color: white;
+    text-decoration: none;
 }
 
 body {
