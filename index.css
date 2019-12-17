@@ -8,7 +8,7 @@ body {
 .menu a {
     display: inline-block;
     padding-right: 2em;
-    color: white;
+    color: rgb(255,255,255);
     font-size: 1.5em;
 }
 
@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 label {
@@ -37,7 +37,7 @@ header {
 }
 
 a:visited, a, #name {
-    color: white;
+    color: rgb(255,255,255);
     text-decoration: none;
 }
 
