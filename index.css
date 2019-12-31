@@ -4,7 +4,6 @@ body {
     position: relative;
     min-height: 100vh;
 }
-
 .menu a {
     display: inline-block;
     padding-right: 2em;
@@ -18,7 +17,6 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #000000;
-    /* padding: 1em; */
 }
 
 label {
@@ -30,7 +28,7 @@ label.abc {
 }
 
 #toggle {
-    display:none
+    display: none
 }
 header {
     background-color: black;
@@ -41,13 +39,6 @@ a:visited, a, #name {
     color: rgb(255,255,255);
     text-decoration: none;
 }
-
-/* #name {
-    float: left;
-    padding-left: 7px;
-    color: white;
-    text-decoration: none;
-} */
 
 body {
     background-color: white;
@@ -103,109 +94,56 @@ div.box {
     
 }
 
-footer {
-    background-color: black;
-    overflow: hidden;
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    padding-left: 1em;
-    padding-right: 0.5em;
-    color: white;
-    flex-grow: 1;
-    font-size: 1.5em;
-}
-
-.text {
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.screenshot {
-    height: 15vh;
-    width: 45%;
-    border: solid black 1px;
-    margin-left: 25%;
+.box{
+    margin: 25%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .container {
-    display: flex;
+    display: block;
+    margin-top: 0%:
 }
 
-.container div {
-    display: flex;
-    flex-direction: column;
+.menu a {
+    display: none;
 }
 
-.container p {
-    flex-grow: 1;
+label {
+    display: block;
+    color: white;
+    float: right;
+    padding: 1px;
+    cursor: pointer;
 }
 
-
-@media only screen and (max-height: 900px) {
-    footer {
-        bottom: -30px;
-    }
+#toggle:checked + .menu a {
+    display: block;
+    padding-right: 0;
 }
 
-@media screen and (max-width: 500px) {
-    .box{
-        margin: 25%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-
-    .container {
-        display: block;
-        margin-top: 0%:
-    }
-
-    footer {
-        bottom: -60px;
-    }
-    
-    .menu a {
+@media screen and (min-width: 800px) {
+    label.abc {
         display: none;
     }
 
-    label {
-        display: block;
-        color: white;
-        float: right;
-        padding: 1px;
-        cursor: pointer;
+    img {
+        width: 45%;
+        border: solid 1px black;
     }
 
-    #toggle:checked + .menu a {
-        display: block;
-        padding-right: 0;
+    .menu a {
+        display: inline-block;
+        padding-right: 2em;
+        color: rgb(255,255,255);
+        font-size: 1.5em;
     }
-
-    footer {
-        font-size: 14px;
+    
+    .menu {
+        text-align: right;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #000000;
     }
-
-}
-
-.icons {
-    width: 10%;
-    height: 5vh;
-    margin: 5%;
-}
-
-.email {
-    width: 5%;
-    height: 5vh;
-    margin: 5%;
-}
-
-.contact-page {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }
